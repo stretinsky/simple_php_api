@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple application</title>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+
+<h1>Simple text processor</h1>
+<p>I can process text</p>
+
+<form action="javascript:void(0);">
+    <label>
+        Write text
+        <input name="text" id="text">
+    </label>
+    <label>
+        => Result
+        <input name="text" id="result" disabled>
+    </label>
+    <br>
+    <label>
+        Reverse text
+        <input type="checkbox" id="reverse">
+    </label>
+    <label>
+        To upper
+        <input type="checkbox" id="to-upper">
+    </label>
+    <br>
+    <button id="process" onclick="sendData()">
+        Process
+    </button>
+</form>
+
+</body>
+</html>
